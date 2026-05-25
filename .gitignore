@@ -1,0 +1,36 @@
+## Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+## Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+## Data — не заливати на GitHub (Kaggle забороняє)
+data/train.csv
+data/test.csv
+data/sample_submission.csv
+
+## Models & logs
+models/*.h5
+models/*.pkl
+models/*.png
+logs/
+mlruns/
+
+## Env
+.env
+venv/
+.venv/
+env/
+
+## OS
+.DS_Store
+Thumbs.db
