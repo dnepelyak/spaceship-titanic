@@ -146,6 +146,4 @@ make test
 
 ---
 
-## 📄 License
 
-[MIT](LICENSE)
