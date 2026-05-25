@@ -1,6 +1,6 @@
 # 🚀 Spaceship Titanic — Neural Network Ensemble
 
-[![CI](https://github.com/YOUR_USERNAME/spaceship-titanic/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/spaceship-titanic/actions)
+
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15%2B-orange)](https://tensorflow.org/)
 [![MLflow](https://img.shields.io/badge/MLflow-tracked-green)](https://mlflow.org/)
