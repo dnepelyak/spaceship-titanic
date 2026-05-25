@@ -36,31 +36,6 @@ spaceship-titanic/
 └── README.md
 ```
 
----
-
-## ⚡ Pipeline Overview
-
-```
-Raw Data
-   │
-   ▼
-Feature Engineering          (Cabin split, spending features, group size, age bins)
-   │
-   ▼
-ColumnTransformer            (StandardScaler + OrdinalEncoder + Imputation)
-   │
-   ▼
-Optuna HPO (TPE Sampler)     (30 trials × 3-fold CV → best hyperparams)
-   │
-   ▼
-5-Fold Ensemble
-   ├── MLP (Deep Residual)
-   └── Wide & Deep
-   │
-   ▼
-Averaged Predictions → submission.csv
-MLflow Tracking (params + metrics + artifacts)
-```
 
 ---
 
