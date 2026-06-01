@@ -121,20 +121,6 @@ make test
 
 ---
 
-## 🔬 Hyperparameters Tuned (Optuna)
-
-| Parameter | Search Space |
-|-----------|-------------|
-| `n_layers` | 2 – 6 |
-| `units` | 64, 128, 256, 512 |
-| `dropout` | 0.1 – 0.5 |
-| `lr` | 1e-4 – 1e-2 (log) |
-| `batch_size` | 128, 256, 512 |
-| `activation` | relu, swish, gelu |
-| `l2_reg` | 1e-5 – 1e-2 (log) |
-
----
-
 ## 🛠 Tech Stack
 
 - **TensorFlow / Keras** — MLP & Wide&Deep models
